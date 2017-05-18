@@ -3,6 +3,7 @@ class homeassistant::install (
   $group        = $homeassistant::group,
   $home         = $homeassistant::home,
   $config       = $homeassistant::config,
+  $paths        = $homeassistant::paths,
 ) inherits homeassistant {
 
   group{$group:
